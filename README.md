@@ -33,4 +33,7 @@ TF2:  adding autoscaling to VPC network from TF1
 
 > Because terraform creates a provision order related to dependencies, *wordpress-instance-sg will be provisioned first then wordpress-elb-sg*
 
-> Note: If you are preparing your environment *not for end-user but for testing or development*, replace 0.0.0.0/0 with your IP Ranges.
+> Note: If you are preparing your environment *not for end-user but for testing or development*, replace 0.0.0.0/0 with your IP Ranges. 
+
+### IAM  Role
+> IAM Role is not required for this deployment, but it is a good practice to learn to deploy IAM roles which can control security access in different environments
